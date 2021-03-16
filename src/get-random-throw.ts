@@ -31,4 +31,5 @@ export function didUserWin(user: string, computer: string): string {
 
   if(userWins[user] === computer) return 'win'
   if(userWins[user] !== computer) return 'lose'
+  
 }
